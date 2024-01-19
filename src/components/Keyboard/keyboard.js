@@ -10,8 +10,9 @@ const Keyboard = () => {
       id: "keyboard",
       width: "1000",
       height: "300",
-      octaves: 3,
-      startNote: "C4",
+      octaves: 2,
+      startNote: "C3",
+      hoverColour: "#000000",
     });
     keyboard.keyDown = (note, freq) => {
       updateState({ type: "MAKE_OSC", payload: { note, freq } });

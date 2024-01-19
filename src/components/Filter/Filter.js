@@ -22,7 +22,7 @@ const Filter = () => {
         <div className={style.header}>
           <h1 className={style.heading}>Filter</h1>
         </div>
-        <div className="col-5">
+        <div className="col-3">
           <div className={style.slider}>
             <label className={style.label}>Frequency</label>
             <input
@@ -44,6 +44,8 @@ const Filter = () => {
               className={style.input}
             />
           </div>
+        </div>
+        <div className="col-3">
           <div className={style.slider}>
             <label className={style.label}>Q</label>
             <input
@@ -69,7 +71,7 @@ const Filter = () => {
             />
           </div>
         </div>
-        <div className="col-5">
+        <div className="col-6">
           <div className="param">
             <h3 className={style.label}>Type</h3>
             <button

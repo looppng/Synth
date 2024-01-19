@@ -21,7 +21,7 @@ const Oscillator1 = () => {
     <section className={style.container}>
       <div className={`${style.row} row`}>
         <div className={style.header}>
-          <h1 className={style.heading}>Oscillator 1</h1>
+          <h1 className={style.heading}>Oscillator</h1>
         </div>
         <div className="col-5">
           <div className={style.slider}>
@@ -37,7 +37,7 @@ const Oscillator1 = () => {
             />
           </div>
         </div>
-        <div className="col-5">
+        <div className="col-7">
           <h3 className={style.label}>Wave</h3>
           <div className={style.actions}>
             <button
